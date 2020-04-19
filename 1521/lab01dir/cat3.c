@@ -17,7 +17,8 @@ int main (int argc, char *argv[])
 static void copy (FILE *input, FILE *output)
 {
 	char s[BUFSIZ];
-	while(strlen(fgets(s,BUFSIZ,input))>0){
+	while(strlen(fgets(s,BUFSIZ,input))>1){
+		printf ("string length = %d\n",strlen(s));
 		fputs(s,output);
 	}
 
