@@ -15,12 +15,8 @@ int main (int argc, char *argv[])
 // Assumes both files open in appropriate mode
 static void copy (FILE *input, FILE *output)
 {
-	char str[500];
-	int i=0;
-	while(fscanf(input,"%c",&str[i])!=EOF){
-		i++;
+	char c;
+	while(fscanf(input,"%c",&c)!=EOF){
+		fprintf(output,"%s",str);
 	}
-	str[i]='\0';
-
-	fprintf(output,"%s",str);
 }
