@@ -11,7 +11,7 @@ int main (int argc, char *argv[])
 	copy (stdin, stdout);
 	return EXIT_SUCCESS;
 }
-
+test
 // Copy contents of input to output, char-by-char
 // Assumes both files open in appropriate mode
 static void copy (FILE *input, FILE *output)
