@@ -16,15 +16,9 @@ int main (int argc, char *argv[])
 // Assumes both files open in appropriate mode
 static void copy (FILE *input, FILE *output)
 {
-	char str[1024];
-	int i=0;
-	while((str[i]=fgetc(input))!='\n'){
-		i++;
+	char c;
+	while((c=fgetc(input))!=EOF){
+		fputc(c,output);
 	}
-	str[i]='\0';
-	i=0;
-	while(str[i]!='\0'){
-		fputc(str[i],output);
-		i++;
-	}
+	
 }
