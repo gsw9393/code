@@ -17,6 +17,6 @@ static void copy (FILE *input, FILE *output)
 {
 	char c;
 	while(fscanf(input,"%c",&c)!=EOF){
-		fprintf(output,"%s",str);
+		fprintf(output,"%c",c);
 	}
 }
