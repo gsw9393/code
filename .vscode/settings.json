@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 20,
+    "terminal.integrated.fontSize": 18,
+    "files.associations": {
+        "stdio.h": "c",
+        "cmath": "c"
+    }
+}
