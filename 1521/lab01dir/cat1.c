@@ -16,7 +16,6 @@ int main (int argc, char *argv[])
 static void copy (FILE *input, FILE *output)
 {
 	char str[500];
-	int ch;
 	int i=0;
 	while(fscanf(input,"%c",&str[i])!=EOF){
 		i++;
