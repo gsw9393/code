@@ -1,0 +1,5 @@
+Also, the times will vary significantly
+depending on the machine you run the program on.
+
+You should do all of the comparative testing on 
+a single machine.

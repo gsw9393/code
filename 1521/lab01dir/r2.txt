@@ -1,0 +1,8 @@
+The game consists of a 4 x 4 grid consisting of cells that have base 2 values up to 2048. 
+Users can slide cells up, down, left, or right to move all cells in that direction. 
+If adjacent cells (in the direction of travel) are equal then they merge and form a
+ cell that has value twice as big as either cell (i.e. a base 2 step higher).
+
+Every move a random cell appears in an empty cell.
+
+If all of the cells are filled up in such a way that none can be merged, the game is complete

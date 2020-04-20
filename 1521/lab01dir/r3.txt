@@ -1,0 +1,6 @@
+To get a good sense of the relative efficiency 
+of the various versions of cat?, you should run
+the timing test several times and take an average.
+Once you have reached a conclusion about which 
+approach is most efficient, use that approach 
+to implement cat4.c.

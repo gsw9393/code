@@ -8,7 +8,22 @@ static void copy (FILE *, FILE *);
 
 int main (int argc, char *argv[])
 {
-	copy (stdin, stdout);
+	if (argc==1){
+		copy (stdin, stdout);
+	}else{
+		int i=1;
+		while(i<argc){
+
+			FILE *f=fopen(argv[i], "r");
+
+			if (f!=NULL){
+				copy(f, stdout);
+			}else{
+				printf ("Can't read %s",argv[i]);
+			}
+			i++;
+		}
+	}
 	return EXIT_SUCCESS;
 }
 
@@ -16,4 +31,9 @@ int main (int argc, char *argv[])
 // Assumes both files open in appropriate mode
 static void copy (FILE *input, FILE *output)
 {
+	char c;
+	while((c=fgetc(input))!=EOF){
+		fputc(c,output);
+	}
+		
 }
