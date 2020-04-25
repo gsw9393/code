@@ -4,5 +4,44 @@
     "files.associations": {
         "stdio.h": "c",
         "cmath": "c"
+    },
+    
+    "editor.tokenColorCustomizations": {
+        "numbers": "#ffffff",
+        "strings": "#3ad900",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#ffffff"
+                },
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#0088ff",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#ff9d00",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#FF0000"
+                }
+            }
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#cccccc"
+                }
+            }
+        ]
     }
 }
