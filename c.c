@@ -1,12 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-//Hello hello
-#define MAX 700
-int main (int argc, char *argv[]){
-	char b=(0b110001000);
-	printf ("%d",b>>2); EOF
-	return 0;
-	TRUE
+
+typedef struct Coord {
+    int x;
+    int y;
+    int z;
+} Coord;
+
+int main(void) {
+	
+    Coord coords[10];
+    Coord a = { .x = 5, .y = 6, .z = 7 };
+    Coord b = { .x = 3, .y = 3, .z = 3 };
+    Coord *p = &a;
+
+    /*** A ***/
+    (*p).x = 6;
+    p->y++;
+    p->z++;
+    b = *p;
+    /*** B ***/
+
+
+    return 0;
 }
-0 10000000 11000000000000000000000
