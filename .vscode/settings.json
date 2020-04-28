@@ -5,16 +5,25 @@
         "stdio.h": "c",
         "cmath": "c"
     },
-    
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000"
+      },
+    /*  
     "editor.tokenColorCustomizations": {
         "numbers": "#ffffff",
         "strings": "#3ad900",
         "textMateRules": [
             {
-                "scope": "keyword.operator",
+                "scope": "variable.other",
                 "settings": {
                     "foreground": "#ffffff"
                 },
+            },
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
             },
             {
                 "scope": "comment",
@@ -24,24 +33,43 @@
                 }
             },
             {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#ffffff",
+                }
+            },
+            {
                 "scope": "keyword.control",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other",
                 "settings": {
                     "foreground": "#ff9d00",
                     "fontStyle": "bold"
                 }
             },
             {
-                "scope": "constant",
+                "scope": "constant.numeric",
                 "settings": {
-                    "foreground": "#ff9d00"
+                    "foreground": "#ff0000"
                 }
             },
             {
-                "scope": "variable",
+                "scope": "entity.name.type",
                 "settings": {
-                    "foreground": "#cccccc"
+                    "foreground": "#80ffbb"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#80ffbb"
                 }
             }
         ]
     }
+    */
 }
