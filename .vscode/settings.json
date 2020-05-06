@@ -8,11 +8,25 @@
     "workbench.colorCustomizations": {
         "editor.background": "#000000"
       },
-    /*  
+      
     "editor.tokenColorCustomizations": {
         "numbers": "#ffffff",
-        "strings": "#3ad900",
+        //"strings": "#3ad900",
         "textMateRules": [
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                //    "foreground": "#0088ff",
+                    "fontStyle": "italic"
+                }
+            },
+            /*
             {
                 "scope": "variable.other",
                 "settings": {
@@ -26,22 +40,9 @@
                 }
             },
             {
-                "scope": "comment",
-                "settings": {
-                    "foreground": "#0088ff",
-                    "fontStyle": "italic"
-                }
-            },
-            {
                 "scope": "entity.name.function",
                 "settings": {
                     "foreground": "#ffffff",
-                }
-            },
-            {
-                "scope": "keyword.control",
-                "settings": {
-                    "fontStyle": "bold"
                 }
             },
             {
@@ -68,8 +69,8 @@
                 "settings": {
                     "foreground": "#80ffbb"
                 }
-            }
+            }*/
         ]
     }
-    */
+    
 }

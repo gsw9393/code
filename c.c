@@ -1,10 +1,13 @@
 #include <stdio.h>
 
-typedef struct Coord {
-    int x;
-    int y;
-    int z;
-} Coord;
+#define MAXQ 6
+
+typedef struct {
+    int nitems;
+    int head;
+    int tail;
+    int items[MAXQ];
+} Queue;
 
 int main(void) {
 	
