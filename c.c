@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
 
@@ -19,13 +19,4 @@ int leaveQueue (Queue *);
 // return the number of items currently in the Queue
 int lengthQueue (Queue);
 // display the contents of the Queue
-void showQueue (Queue);*/
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-int main (int argc, char *argv[]){
-    int c=5%6;
-    printf ("%d",c);
-    return 0;
-}
+void showQueue (Queue);
