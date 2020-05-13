@@ -12,6 +12,7 @@ void initQueue (Queue *q){
 // insert a new item at the tail of the Queue
 
 void enterQueue (Queue *q, int item){
+    assert(q->nitems < MAXQ);
     if (q->nitems!=0){//checks if tail is end of array
         q->tail=(q->tail+1)%MAXQ;//if end of 
     }
